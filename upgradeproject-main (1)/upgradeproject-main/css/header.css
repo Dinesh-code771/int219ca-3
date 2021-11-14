@@ -1,0 +1,45 @@
+.header {
+  position: relative;
+  height: 20vh;
+}
+#signbutton {
+  position: absolute;
+  right: 5%;
+  top: 5px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+#loginbutton {
+  position: absolute;
+  right: 1%;
+  top: 5px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.header h1 {
+  color: rgb(209, 102, 102);
+  position: absolute;
+  left: 0;
+  top: 0px;
+  margin-top: 5px;
+  font-style: italic;
+}
+.header p {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  margin-top: 5px;
+  font-size: small;
+  font-style: italic;
+}
+.box:nth-of-type(0) {
+  align-self: flex-end;
+}
